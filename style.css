@@ -1,0 +1,47 @@
+
+.container {
+    width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container i {
+    font-size: 2.5em;
+    color: white;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.container i:disabled {
+    opacity: 0;
+}
+
+.container i:hover {
+    transform: translateY(-27px);
+}
+
+.fa-chevron-left {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fa-chevron-right {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.frame {
+    width: 100%;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
