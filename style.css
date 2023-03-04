@@ -1,7 +1,11 @@
-
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     width: 640px;
-    margin: 0 auto;
     position: relative;
 }
 
@@ -10,10 +14,6 @@
     color: white;
     position: absolute;
     transition: 0.5s;
-}
-
-.container i:disabled {
-    opacity: 0;
 }
 
 .container i:hover {
