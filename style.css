@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -40,8 +41,22 @@ body {
 .images {
     display: flex;
     position: relative;
+    transition: 0.5s;
 }
 
 img {
     width: 100%;
+}
+.icons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icons div {
+    width: 40px;
+    height: 5px;
+    background-color: #e5e5e5;
+    border: 1px solid black;
+    border-radius: 3px;
 }
